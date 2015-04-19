@@ -66,7 +66,7 @@ var OtherViewWidget = VirtualView.CustomElementWidget(function() {
 
 var MyView = VirtualView.extend({
 	render: function() {
-		this.html("<b>Hello</b>, the count is <span>"+this.options.count+"</span>");
+		this.html("This is <my-widget></my-widget>");
 		return this.ready();
 	},
 
