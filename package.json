@@ -1,7 +1,7 @@
 {
     "name": "hr.vview",
     "description": "View using VirtualDom",
-    "version": "0.0.0",
+    "version": "1.0.0",
     "main": "./lib/index.js",
     "devDependencies": {
         "hr.mocha": "^0.2.0"
