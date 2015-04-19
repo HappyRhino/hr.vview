@@ -1,0 +1,24 @@
+{
+    "name": "hr.vview",
+    "description": "View using VirtualDom",
+    "version": "0.0.0",
+    "main": "./lib/index.js",
+    "devDependencies": {
+        "hr.mocha": "^0.2.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/HappyRhino/hr.vview.git"
+    },
+    "scripts": {
+        "test": "./node_modules/.bin/hr-mocha ./tests/index.js"
+    },
+    "dependencies": {
+        "jquery": "*",
+        "hr.utils": "*",
+        "hr.class": ">=1.2.3",
+        "hr.view": "*",
+        "virtual-dom": "2.0.1",
+        "html2hscript": "git+https://github.com/SamyPesse/html2hscript.git#ce642720b3fd97cf41dd3be16b82d2bf4c4ad8bf"
+    }
+}
